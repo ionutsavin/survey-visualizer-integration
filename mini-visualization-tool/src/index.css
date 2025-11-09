@@ -52,3 +52,26 @@ body {
 .bottom-section {
   flex-shrink: 0;
 }
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 16px;
+  }
+
+  .main-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .app-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+}

@@ -176,3 +176,17 @@
   color: #e0e0e0;
   line-height: 1.3;
 }
+
+@media (max-width: 768px) {
+  .legend-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .snapshot-content {
+    flex-direction: column;
+  }
+
+  .chart-section {
+    margin: 0 auto;
+  }
+}

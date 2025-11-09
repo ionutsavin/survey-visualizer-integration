@@ -140,3 +140,19 @@
   color: #e0e0e0;
   white-space: nowrap;
 }
+
+@media (max-width: 768px) {
+  .difficulty-legend {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .difficulty-legend-item {
+    justify-content: flex-start;
+  }
+
+  .difficulty-chart-wrapper {
+    height: 200px;
+  }
+}
